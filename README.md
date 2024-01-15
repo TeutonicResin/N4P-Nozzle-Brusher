@@ -17,9 +17,9 @@ Setze die Bürste in die Halterung ein.
 Befestige die Halterung an der vorderen linken Ecke des Druckbetts.
 Kopiere das Makro (**macro.cfg**) in deine **printer.cfg**.
 
-Parameter WIPES: Anzahl der Reinigungsbewegungen (Standardwert = 10).
-Reinigungstemperatur = Extrusionstemperatur - 40°C.
 Füge folgende Zeile in dein Start-Makro nach dem Aufheizen des Bettes und vor dem Bettleveling ein: `CLEAN_NOZZLE EXTRUDER_TEMP={params.EXTRUDER_TEMP|default(200)|float} WIPES={10}`.
+(Parameter WIPES: Anzahl der Reinigungsbewegungen (Standardwert = 10).
+Reinigungstemperatur = Extrusionstemperatur - 40°C.)
 
 Optional: Füge unter Druckereinstellungen -> ausgenommene Druckbettfläche im Orca-Slicer das folgende Polygon hinzu: `0x0,25x0,25x5,5x5,5x42,0x42`.
 
@@ -44,9 +44,10 @@ Insert the brush into the holder.
 Attach the holder to the front left corner of the print bed.
 Copy the macro (**macro.cfg**) into your **printer.cfg**.
 
-Parameter WIPES: Number of cleaning movements (default = 10).
-Cleaning temperature = Extrusion temperature - 40°C.
 Add the following line to your Start-Macro after heating the bed and before bed leveling: `CLEAN_NOZZLE EXTRUDER_TEMP={params.EXTRUDER_TEMP|default(200)|float} WIPES={10}`.
+(Parameter WIPES: Number of cleaning movements (default = 10).
+Cleaning temperature = Extrusion temperature - 40°C.)
+
 
 Optional: Add the following polygon under Printer Settings -> Excluded Print Bed Area in the Orca Slicer: `0x0,25x0,25x5,5x5,5x42,0x42`.
 
