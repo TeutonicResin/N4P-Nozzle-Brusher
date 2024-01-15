@@ -37,7 +37,7 @@ All you need is a brush, the macro, and an adjustment in your Start-Print-Macro.
 
 I sourced the brush from Amazon (https://www.amazon.de/dp/B0CHNZ458F) and cut the brush head after 40mm from the handle. You can also use any reasonably fitting alternative brush. The parameterized Fusion360 model, a Step file, and the STL file are provided.
 
-### Installation ###:
+#### Installation: ####
 
 Print the holder in a heat-resistant material (ABS, ASA, ...).
 Insert the brush into the holder.
